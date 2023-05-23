@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&family=Nunito:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}" />
+  <title>BioAlmanac</title>
+</head>
+
+<body>
+  <div class="sign-container">
+    <a class="sign" href="/about">BioAlmanac</a>
+    <div class="pole"></div>
+  </div>
+  <div class="container">
+    <div class="left">
+      <div class="heading">Plants</div>
+      <div class="decoration">
+        <a class="plant" href="plant-almanac">
+          <img src="{{ url_for('static', filename='img/plant.png') }}" alt="plant" />
+        </a>
+      </div>
+    </div>
+    <div class="right">
+      <div class="heading">Animals</div>
+      <div class="decoration">
+        <a class="cow" href="/animal-almanac">
+          <img src="{{ url_for('static', filename='img/cow.png') }}" alt="cow" />
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

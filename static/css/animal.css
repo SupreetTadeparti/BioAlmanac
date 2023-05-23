@@ -1,0 +1,63 @@
+body {
+    background: color-mix(in srgb, var(--primary-clr) 70%, black);
+  }
+  
+  *{
+    font-size: 1.04em;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5em 0;
+    width: 100%;
+    color: white;
+    gap: 1em;
+  }
+  
+  .animal-img {
+    width: 20%;
+    aspect-ratio: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .animal-img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.5em;
+  }
+  
+  .animal-name {
+    font-size: 2.25em;
+  }
+  
+  .animal-type {
+    font-size: 1.25em;
+  }
+  
+  .animal-endangerment {
+    font-size: 1.25em;
+  }
+  
+  .animal-fact {
+    max-width: 50%;
+  }
+
+  .animal-prey{
+    font-size: 1.25em;
+  }
+
+  .animal-predator{
+    font-size: 1.25em;
+  }
+  
+  .animal-field {
+    display: inline;
+    font-weight: bold;
+  }
+  

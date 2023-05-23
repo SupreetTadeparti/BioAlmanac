@@ -1,0 +1,360 @@
+{
+  "Plants": [
+    {
+      "name": "Venus Flytrap",
+      "type": "Carnivorous Plant",
+      "endangerment_status": "Endangered",
+      "description": "The Venus Flytrap is a fascinating carnivorous plant that catches insects with its specialized leaves, which snap shut when triggered."
+    },
+    {
+      "name": "Western Prairie Fringed Orchid",
+      "type": "Orchid",
+      "endangerment_status": "Endangered",
+      "description": "The Western Prairie Fringed Orchid is a rare orchid species found in North America, characterized by its fringed petals and reliance on specific pollinators."
+    },
+    {
+      "name": "Franklinia",
+      "type": "Tree",
+      "endangerment_status": "Extinct in the Wild",
+      "description": "The Franklinia is an extinct-in-the-wild tree species, with the last known wild specimens discovered in the late 18th century. It is now only found in cultivation."
+    },
+    {
+      "name": "Hawaiian Silversword",
+      "type": "Herbaceous Plant",
+      "endangerment_status": "Endangered",
+      "description": "The Hawaiian Silversword is a unique plant endemic to the Hawaiian islands, known for its long silver leaves and remarkable ability to survive in harsh volcanic conditions."
+    },
+    {
+      "name": "Rafflesia",
+      "type": "Flowering Plant",
+      "endangerment_status": "Endangered",
+      "description": "The Rafflesia is a remarkable flowering plant known for producing the world's largest flower, which can reach up to one meter in diameter."
+    },
+    {
+      "name": "Western Underground Orchid",
+      "type": "Orchid",
+      "endangerment_status": "Endangered",
+      "description": "The Western Underground Orchid is an extraordinary orchid species that spends its entire lifecycle underground, relying on a specific fungus for survival."
+    },
+    {
+      "name": "Florida Torreya",
+      "type": "Tree",
+      "endangerment_status": "Critically Endangered",
+      "description": "The Florida Torreya is a critically endangered conifer tree found only in a few small populations in Florida and Georgia. It is named after the botanist John Torrey."
+    },
+    {
+      "name": "Socotra Dragon Tree",
+      "type": "Tree",
+      "endangerment_status": "Critically Endangered",
+      "description": "The Socotra Dragon Tree is a unique tree species endemic to the island of Socotra in Yemen. It is known for its unusual, umbrella-shaped crown and resin known as 'dragon's blood'."
+    },
+    {
+      "name": "Cypripedium calceolus",
+      "type": "Orchid",
+      "endangerment_status": "Endangered",
+      "description": "Cypripedium calceolus, also known as the Lady's Slipper Orchid, is a stunning and rare orchid species with a distinctive slipper-shaped blossom."
+    },
+    {
+      "name": "Monkey Puzzle Tree",
+      "type": "Tree",
+      "endangerment_status": "Endangered",
+      "description": "The Monkey Puzzle Tree, native to Chile and Argentina, is an ancient conifer species known for its unique and spiky evergreen foliage."
+    },
+    {
+      "name": "Baseball Plant",
+      "type": "Succulent",
+      "endangerment_status": "Endangered",
+      "description": "The Baseball Plant, also known as Euphorbia obesa, is a small succulent native to South Africa. It gets its name from its distinctive shape resembling a baseball."
+    },
+    {
+      "name": "Elaeocarpus bojeri",
+      "type": "Tree",
+      "endangerment_status": "Critically Endangered",
+      "description": "Elaeocarpus bojeri, commonly known as Bojer's Mauveberry, is a critically endangered tree species found only in Mauritius. It has beautiful mauve flowers and is highly valued for its medicinal properties."
+    },
+    {
+      "name": "Encephalartos woodii",
+      "type": "Cycad",
+      "endangerment_status": "Extinct in the Wild",
+      "description": "Wood's Cycad, also known as Encephalartos woodii, is an extinct in the wild cycad native to South Africa. It is unique as it comprises only male plants, with no known female plants existing in the wild."
+    },
+    {
+      "name": "Harperocallis flava",
+      "type": "Herbaceous Plant",
+      "endangerment_status": "Critically Endangered",
+      "description": "Harperocallis flava, also known as Harper's Beauty, is a critically endangered herbaceous plant species endemic to Florida. It produces striking yellow flowers and is highly threatened by habitat loss."
+    },
+    {
+      "name": "Lilium occidentale",
+      "type": "Lily",
+      "endangerment_status": "Endangered",
+      "description": "Lilium occidentale, commonly known as Western Lily, is an endangered lily species found in western North America. It displays beautiful orange or yellow flowers and is often found in wetland habitats."
+    },
+    {
+      "name": "Helianthus paradoxus",
+      "type": "Sunflower",
+      "endangerment_status": "Endangered",
+      "description": "Helianthus paradoxus, also called Pecos Sunflower, is an endangered sunflower species native to the Pecos River region in Texas and New Mexico. It is characterized by its small stature and yellow flowers."
+    },
+    {
+      "name": "Clarkia franciscana",
+      "type": "Wildflower",
+      "endangerment_status": "Critically Endangered",
+      "description": "Clarkia franciscana, known as the Franciscan Clarkia, is a critically endangered wildflower endemic to a small area of San Francisco, California. It has delicate pinkish-purple flowers and is threatened by urban development."
+    },
+    {
+      "name": "Cirsium pitcheri",
+      "type": "Thistle",
+      "endangerment_status": "Endangered",
+      "description": "Cirsium pitcheri, commonly known as Pitcher's Thistle, is an endangered thistle species native to the Great Lakes region of North America. It produces beautiful pink flowers and is mainly found in sandy coastal habitats."
+    },
+    {
+      "name": "Dicerandra christmanii",
+      "type": "Mint",
+      "endangerment_status": "Critically Endangered",
+      "description": "Dicerandra christmanii, also called Scrub Balm, is a critically endangered mint species endemic to Florida. It is a small, aromatic plant that grows in the sandy scrub habitats of the state."
+    },
+    {
+      "name": "Conradina brevifolia",
+      "type": "Shrub",
+      "endangerment_status": "Endangered",
+      "description": "Conradina brevifolia, known as the Short-leaved Rosemary, is an endangered shrub species found in the Florida Panhandle. It has aromatic leaves and produces pinkish-lavender flowers."
+    },
+    {
+      "name": "Sigillaria",
+      "type": "Lycophyte",
+      "endangerment_status": "Extinct in the Wild",
+      "description": "Sigillaria is a genus of extinct, spore-bearing, arborescent lycophyte, known from the Carboniferous and Permian periods."
+    },
+    {
+      "name": "Cyanea superba",
+      "type": "Flowering Plant",
+      "endangerment_status": "Extinct in the Wild",
+      "description": "Cyanea superba is a rare species of flowering plant in the bellflower family known by the common names Mt. Kaala cyanea and superb cyanea. It is endemic to the island of Oahu, but it is now extinct in the wild."
+    },
+    {
+      "name": "Franciscan manzanita",
+      "type": "Shrub",
+      "endangerment_status": "Extinct in the Wild",
+      "description": "The Franciscan manzanita is a low-growing, spreading shrub associated primarily with outcrops of serpentine or other ultramafic rock. "
+    }
+  ],
+  "Animals": [
+    {
+      "name": "Amur Leopard",
+      "type": "Carnivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "The Amur leopard is one of the rarest big cats in the world, with less than 100 individuals remaining in the wild.",
+      "prey": "Deer, wild boar, hare, badger, rodents",
+      "predator": "None"
+    },
+    {
+      "name": "Sumatran Orangutan",
+      "type": "Herbivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "Orangutans are highly intelligent and are known to use tools, such as sticks, to extract insects or honey from tree trunks.",
+      "prey": "Fruits, leaves, bark, insects",
+      "predator": "Tigers, clouded leopards, humans"
+    },
+    {
+      "name": "Hectors Dolphin",
+      "type": "Carnivore",
+      "endangerment_status": "Endangered",
+      "fun_fact": "Hector’s dolphins are the smallest and rarest marine dolphins in the world.",
+      "prey": "Cephalopods, crustaceans, small fish species",
+      "predator": "sharks"
+    },
+    {
+      "name": "Vaquita",
+      "type": "Carnivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "The vaquita is the smallest and most endangered species of porpoise, with an estimated population of fewer than 10 individuals.",
+      "prey": "Fish, squid",
+      "predator": "Unknown"
+    },
+    {
+      "name": "Mountain Gorilla",
+      "type": "Herbivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "Mountain gorillas live in close-knit family groups led by a dominant silverback male, and they are known for their gentle and shy nature.",
+      "prey": "Leaves, stems, bamboo shoots",
+      "predator": "Leopards"
+    },
+    {
+      "name": "Hawksbill Turtle",
+      "type": "Omnivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "Hawksbill turtles are known for their beautiful shell, which is highly valued for making jewelry and ornaments, leading to their decline due to illegal trade.",
+      "prey": "Sponges, sea anemones, jellyfish, algae",
+      "predator": "Sharks, large fish, humans"
+    },
+    {
+      "name": "Javan Rhino",
+      "type": "Herbivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "The Javan rhinoceros is one of the rarest large mammals in the world, with less than 80 individuals remaining in the wild.",
+      "prey": "Leaves, twigs, fruit",
+      "predator": "Tigers, crocodiles"
+    },
+    {
+      "name": "Sumatran Tiger",
+      "type": "Carnivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "Sumatran tigers are the smallest subspecies of tiger and are known for their webbed feet, which help them swim.",
+      "prey": "Deer, boar, birds, primates",
+      "predator": "None (apex predator)"
+    },
+    {
+      "name": "Chinese Pangolin",
+      "type": "Insectivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "Pangolins are unique mammals covered in tough, overlapping scales, and they are the most trafficked wild mammal in the world due to the demand for their scales and meat.",
+      "prey": "Ants, termites",
+      "predator": "Tigers, leopards, humans"
+    },
+    {
+      "name": "Philippine Eagle",
+      "type": "Carnivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "The Philippine eagle is one of the largest and most powerful eagles in the world, with a wingspan of up to 7 feet (2.1 meters).",
+      "prey": "Flying lemurs, monkeys, birds",
+      "predator": "None (apex predator)"
+    },
+    {
+      "name": "African Wild Dog",
+      "type": "Carnivore",
+      "endangerment_status": "Endangered",
+      "fun_fact": "African wild dogs are highly social animals that live in packs, and they are known for their excellent teamwork during hunting, where they can reach speeds of up to 44 mph (70 km/h).",
+      "prey": "Antelopes, gazelles, zebras, wildebeests",
+      "predator": "Lions, hyenas, leopards"
+    },
+    {
+      "name": "Sumatran Rhino",
+      "type": "Herbivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "The Sumatran rhino is the smallest rhino species and has a hairy coat that distinguishes it from other rhino species.",
+      "prey": "Leaves, twigs, fruit",
+      "predator": "Tigers, crocodiles"
+    },
+    {
+      "name": "Iberian Lynx",
+      "type": "Carnivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "The Iberian lynx is the most endangered wild cat species in the world and is native to the Iberian Peninsula in southwestern Europe.",
+      "prey": "Rabbits",
+      "predator": "None (apex predator)"
+    },
+    {
+      "name": "Giant Panda",
+      "type": "Herbivore",
+      "endangerment_status": "Endangered",
+      "fun_fact": "Giant pandas have a thumb-like extension on their wrist, which helps them grip bamboo stalks.",
+      "prey": "Bamboo",
+      "predator": "None (apex predator)"
+    },
+    {
+      "name": "Black Rhinoceros",
+      "type": "Herbivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "Black rhinos have a prehensile upper lip that they use to grasp leaves and twigs.",
+      "prey": "Leaves, twigs, fruit",
+      "predator": "None (apex predator)"
+    },
+    {
+      "name": "Bornean Orangutan",
+      "type": "Primate",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "Bornean orangutans are known for their remarkable intelligence and ability to use tools in their daily lives.",
+      "prey": "Fruits, leaves, bark, insects",
+      "predator": "Clouded leopards, humans"
+    },
+    {
+      "name": "Blue Whale",
+      "type": "Carnivore",
+      "endangerment_status": "Endangered",
+      "fun_fact": "Blue whales are the largest animals on Earth, with lengths reaching up to 98 feet (30 meters) and weights of around 200 tons.",
+      "prey": "Krill",
+      "predator": "None (apex predator)"
+    },
+    {
+      "name": "Red Wolf",
+      "type": "Carnivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "Red wolves are highly social animals that live in packs and are native to the southeastern United States.",
+      "prey": "Rabbits, rodents, small mammals",
+      "predator": "Coyotes"
+    },
+    {
+      "name": "Hainan Gibbon",
+      "type": "Herbivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "The Hainan gibbon is one of the rarest primates in the world and is found only on Hainan Island in China.",
+      "prey": "Fruits, leaves",
+      "predator": "Unknown"
+    },
+    {
+      "name": "Hawksbill Turtle",
+      "type": "Omnivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "Hawksbill turtles are known for their beautiful shell, which is highly valued for making jewelry and ornaments, leading to their decline due to illegal trade.",
+      "prey": "Sponges, sea anemones, jellyfish, algae",
+      "predator": "Sharks, large fish, humans"
+    },
+    {
+      "name": "Yangtze Finless Porpoise",
+      "type": "Carnivore",
+      "endangerment_status": "Critically Endangered",
+      "fun_fact": "The Yangtze finless porpoise is the only species of porpoise that can live exclusively in freshwater rivers and lakes.",
+      "prey": "Fish, shrimp, squid",
+      "predator": "None (apex predator)"
+    },
+    {
+      "name": "Baiji",
+      "type": "Carnivore",
+      "endangerment_status": "Extinct in the Wild",
+      "fun_fact": "Baiji is a Chinese word meaning a white dolphin.",
+      "prey": "Small fish such as carp, yellow catfish, and copper fish",
+      "predator": "Humans"
+    },
+    {
+      "name": "Dodo bird",
+      "type": "Omnivore",
+      "endangerment_status": "Extinct in the Wild",
+      "fun_fact": "Dodos Had Two Cousins That Also Went Extinct",
+      "prey": "Fruits, nuts, seeds, crabs, shellfish",
+      "predator": "None"
+    },
+    {
+      "name": "Tasmanian Tiger",
+      "type": "Carnivore",
+      "endangerment_status": "Extinct in the Wild",
+      "fun_fact": "The Tasmanian Tiger Wasn't Actually A Tiger",
+      "prey": "Kangaroos, sheep and wallabies",
+      "predator": "dingos, humans"
+    },
+    {
+      "name": "Quagga",
+      "type": "Carnivore",
+      "endangerment_status": "Extinct in the Wild",
+      "fun_fact": "Upon each individual quagga was a unique pattern and distribution of stripes; no two quaggas looked exactly alike",
+      "prey": "Zebras, targeted quaggas",
+      "predator": "Lions, cheetahs, leopards"
+    },
+    {
+      "name": "Golden Toad",
+      "type": "Carnivore",
+      "endangerment_status": "Extinct in the Wild",
+      "fun_fact": "Golden toads were once considered to be one of the most colorful amphibians",
+      "prey": "Small insects",
+      "predator": "Monkeys, hawks, skunks and possums."
+    },
+    {
+      "name": "Saola",
+      "type": "Carnivore",
+      "endangerment_status": "Endangered",
+      "fun_fact": "Golden toads were once considered to be one of the most colorful amphibians",
+      "prey": "leaves of figs and other trees and bushes",
+      "predator": "Tigers, humans"
+    }
+  ]
+}

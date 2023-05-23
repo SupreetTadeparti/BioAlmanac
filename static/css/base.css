@@ -1,0 +1,40 @@
+:root {
+  --primary-clr: hsl(24, 27%, 41%);
+  --pg-border-width: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Nunito";
+  margin: 0;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  background: var(--primary-clr);
+  left: 0;
+  right: 0;
+  height: var(--pg-border-width);
+}
+
+body::before {
+  top: 0;
+}
+
+body::after {
+  bottom: 0;
+}
+
+body {
+  border-left: var(--pg-border-width) solid var(--primary-clr);
+  border-right: var(--pg-border-width) solid var(--primary-clr);
+}
+
+html,
+body {
+  min-height: 100vh;
+}

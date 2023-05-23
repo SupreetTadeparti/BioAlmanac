@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&family=Nunito:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/animal.css') }}" />
+    <title>BioAlmanac - {{ animal.name }}</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="animal-img">
+            <img src="{{ url_for('static', filename='img/' + animal['name'].replace(' ', '_').lower() + '.jpg') }}"
+                alt="plant ximg">
+        </div>
+        <div class="animal-name">
+            <div class="animal-field">Name:</div> {{ animal['name'] }}
+        </div>
+        <div class="plant-type">
+            <div class="animal-field">Type:</div> {{ animal['type'] }}
+        </div>
+        <div class="animal-endangerment">
+            <div class="animal-field">Endangerment Status:</div> {{ animal.endangerment_status }}
+        </div>
+        <div class="animal-fact">
+            <div class="animal-field">Fun Fact:</div> {{ animal.fun_fact }}
+        </div>
+        <div class="animal-prey">
+            <div class="animal-field">Prey:</div> {{ animal.prey }}
+        </div>
+        <div class="animal-predator">
+            <div class="animal-field">Prey:</div> {{ animal.predator }}
+        </div>
+    </div>
+</body>
+
+</html>

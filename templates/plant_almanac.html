@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&family=Nunito:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/plant_almanac.css') }}">
+    <title>BioAlmanac - Plants</title>
+</head>
+
+<body>
+    <div class="heading">Endangered Plant Species</div>
+    <div class="container">
+        <!-- Endangered Species -->
+        <div class="endangered-container">
+            <div class="previous-arrow"></div>
+            <div class="endangered">
+                {% for val in data["Endangered"] %}
+                <!-- CARD -->
+                <div class="plant-card-container">
+                    <div class="plant-card">
+                        <div class="plant-card__img">
+                            <img src="{{ url_for('static', filename='img/' + val['name'].replace(' ', '_').lower() + '.jpg') }}"
+                                alt="plant img">
+                        </div>
+                        <div class="plant-card__name">{{val["name"]}}</div>
+                        <div class="plant-card__type">{{val["type"]}}</div>
+                        <div class="plant-card__endangerment">{{val["endangerment_status"]}}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="next-arrow"></div>
+        </div>
+        <!-- Critically Endangered Species -->
+        <div class="critically-endangered-container">
+            <div class="previous-arrow"></div>
+            <div class="crtiically-endangered">
+                {% for val in data["Critically Endangered"] %}
+                <!-- CARD -->
+                <div class="plant-card-container">
+                    <div class="plant-card">
+                        <div class="plant-card__img">
+                            <img src="{{ url_for('static', filename='img/' + val['name'].replace(' ', '_').lower() + '.jpg') }}"
+                                alt="plant img">
+                        </div>
+                        <div class="plant-card__name">{{val["name"]}}</div>
+                        <div class="plant-card__type">{{val["type"]}}</div>
+                        <div class="plant-card__endangerment">{{val["endangerment_status"]}}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="next-arrow"></div>
+        </div>
+        <!-- Extinct in the Wild Species -->
+        <div class="extinct-container">
+            <div class="previous-arrow"></div>
+            <div class="extinct">
+                {% for val in data["Extinct in the Wild"] %}
+                <!-- CARD -->
+                <div class="plant-card-container">
+                    <div class="plant-card">
+                        <div class="plant-card__img">
+                            <img src="{{ url_for('static', filename='img/' + val['name'].replace(' ', '_').lower() + '.jpg') }}"
+                                alt="plant img">
+                        </div>
+                        <div class="plant-card__name">{{val["name"]}}</div>
+                        <div class="plant-card__type">{{val["type"]}}</div>
+                        <div class="plant-card__endangerment">{{val["endangerment_status"]}}</div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="next-arrow"></div>
+        </div>
+    </div>
+</body>
+<script>
+    const nextArrows = document.querySelectorAll(".next-arrow");
+    const prevArrows = document.querySelectorAll(".previous-arrow");
+    const cards = document.querySelectorAll(".plant-card");
+    const plantCardWidth = document.querySelector(".plant-card-container").clientWidth;
+
+    for (const nextArrow of nextArrows) {
+        nextArrow.addEventListener("click", () => {
+            const prevSibling = nextArrow.previousElementSibling
+            prevSibling.scroll({ left: prevSibling.scrollLeft + plantCardWidth });
+        })
+    }
+
+    for (const prevArrow of prevArrows) {
+        prevArrow.addEventListener("click", () => {
+            const nextSibling = prevArrow.nextElementSibling
+            nextSibling.scroll({ left: nextSibling.scrollLeft - plantCardWidth });
+        })
+    }
+    
+    for (const card of cards) {
+        card.addEventListener("click", () => {
+            const plantName = card.querySelector(".plant-card__name").textContent.replaceAll(" ", "-");
+            window.location.href = `/plant/${plantName}`
+        })
+    }
+</script>
+
+</html>
